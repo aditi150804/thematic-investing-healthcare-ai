@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+thematic_investing_env/
+*.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files
+# We will track the structure, but not the raw data itself
+data/raw/
+data/processed/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.DS_Store
+
+# Secrets and credentials
+# NEVER commit your API keys or tokens!
+secrets.ini
+config.py
+*.json
+*.csv
+*.parquet
